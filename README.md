@@ -1,1 +1,14 @@
-# test
+# READ ME #
+este es un repositorio de...
+
+### NOMBRE Y APELLIDO: ###
+ANA IBACACHE
+
+### MATERIA: ###
+TALLER DE INGENIERIA DE SOFTWARE
+
+### CURSO: ###
+7º2º
+
+### COLEGIO: ###
+COLEGIO TECNICO PROVINCIAL "OLGA B. DE ARKO"
