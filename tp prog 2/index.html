@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./main.css">
+	<title>T.P Programacion</title>
+	<script src="./main.js"></script>
+</head>
+<body>
+	 <div class="head">
+	 	<h1>♡Formulario Académico♡</h1>
+	 	
+	</div>
+
+	 <div class="body">
+	 	<div class="contenedorF">
+	 		<div class="formulario">
+	 			<h2>♡Formulario♡</h2> <br>
+	 			<label> Materia: <input type="text" placeholder="Materia" id="materia" class="letritas" onkeydown="moverCur(event, 'docente')"></label><br>
+				<label> Docente: <input type="text" placeholder="Docente" id="docente" class="letritas"onkeydown="moverCur(event, 'horas')"></label><br>
+				<label> Horarios: <input type="text" placeholder="Horas" id="horas" class="letritas" onkeydown="moverCur(event, 'codigo')"></label><br>
+				<label> Codigo: <input type="text" placeholder="Codigo" id="codigo" class="letritas"></label><br>
+				<div id="ContenedorNotas" class="botonesF">
+					<input type="number" name="nota" class="num">
+					<input type="number" name="nota" class="num">
+					<input type="number" name="nota" class="num">
+				</div><br>
+				<div class="botoncitos">
+					<input type="button" value="♡ Ingresar ♡"onclick="alerta()" class="ingresar">
+					<input type="button" value="♡ Agregar ♡"onclick="agregarN()" class="ingresar">
+				</div>
+				
+	 		</div>
+		</div>
+	 	
+		<div class="limpiadito">
+		 	<h2>♡ Materias ♡</h2>
+		 	<div id="contenedorM" class="contenedorM">
+		 		
+		 	</div>
+			<input type="button" value="♡ Limpiar ♡" onclick="eliminarTodos()" class="limpiar" >
+		</div>
+		
+	 </div>
+
+	 <div class="footer">
+	 	
+	 </div>
+</body>
+</html>
