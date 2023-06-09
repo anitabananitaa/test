@@ -3,7 +3,9 @@
 	padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
 
 
 .head{
@@ -11,7 +13,14 @@
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0.3);
 	border-bottom: 1px solid #d6d6e7;
+	height: 50px;
 
+}
+
+#formulario{
+	margin-top: 5px;
+	font-family: 'Outfit', sans-serif;
+	
 }
 
 body{
@@ -29,7 +38,7 @@ body{
 
 h2, h1{
 	color: #D5D8DC;
-	font-family: 'Lora', serif;
+	font-family: 'Outfit', sans-serif;
 	
 }
 
@@ -85,6 +94,10 @@ label{
 	align-content: flex-start;
 
 
+}
+
+#asignatura{
+	margin-top: 20px;
 }
 
 .limpiadito{
@@ -167,7 +180,7 @@ label{
 .footer{
 	background-color: rgba(0, 0, 0, 0.3);
 	border-top: 1px solid #d6d6e7;
-	height: 55px;
+	height: 48px;
 }
 
 
