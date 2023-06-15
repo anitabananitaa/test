@@ -44,6 +44,11 @@ function eliminarTodos(){
 	limpiar();
 }
 
+function Ordenar(){
+	materias.sort((a, b) => a.nombre.toUpperCase() > b.nombre.toUpperCase());
+	escribir(materias);
+}
+
 
 function alerta(){
 	const nombre = document.getElementById('materia').value;
