@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
+
+.head{
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid #d6d6e7;
+
+}
+
+body{
+	background-image: url(./assets/ushi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.body{
+	display: flex;
+	justify-content: row;
+	min-height: calc(100vh - 120px);
+	padding: 10px 120px;
+
+}
+
+h2, h1{
+	color: #D5D8DC;
+	font-family: 'Lora', serif;
+	
+}
+
+.contenedorF{
+	display: flex;
+	justify-content: center;
+	margin-right: 100px;
+	margin-left: 20px;
+
+}
+
+.ingresar{
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid #d6d6e7;
+	border-radius: 5px;
+	height: 30px;
+	width: 80px ;
+	color: #D5D8DC;
+	margin-right: 10px;
+
+}
+
+label{
+	color: #D5D8DC;
+}
+.botoncitos{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.num{
+	width: 35px;
+	background-color: rgba(0, 0, 0, 0.3); 
+	position: relative;
+	cursor: text;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 16px;
+	height: 30px;
+	border: 1px solid #d6d6e7;
+	border-radius: 3px;
+	color: #D5D8DC;
+}
+
+.contenedorM{
+	 display: flex;
+	 flex: 1;
+	 flex-direction: row;
+	 align-items: flex-start;
+	 justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+
+}
+
+.limpiadito{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.3);
+	flex: 2;
+	align-items: center;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	border: 1px solid #d6d6e7;
+	border-radius: 50px;
+
+}
+
+.letritas{
+	background-color: rgba(0, 0, 0, 0.3); 
+	position: relative;
+	cursor: text;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 16px;
+	height: 30px;
+	border: 1px solid #d6d6e7;
+	border-radius: 3px;
+	color: #D5D8DC;
+
+}
+
+.limpiar{
+	height: 30px;
+	width: 80px ;
+	cursor: pointer;
+	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid #d6d6e7;
+	color: #D5D8DC;
+	border-radius: 5px;
+}
+
+.Cuadradito{
+	position: relative;
+	background-color: white;
+	border-radius: 8px;
+	padding: 10px 5px;
+	margin: 9px;
+	padding-right: 40px;
+
+}
+
+.Materia span{
+    margin: 10px 15px;
+}
+
+.EliminarMateria{
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.3);
+	align-items: center ;
+	flex: 1;
+	border-radius: 50px;
+	border: 1px solid #d6d6e7;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	width: 500px;
+}
+
+.footer{
+	background-color: rgba(0, 0, 0, 0.3);
+	border-top: 1px solid #d6d6e7;
+	height: 55px;
+}
+
+
