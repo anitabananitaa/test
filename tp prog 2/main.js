@@ -1,4 +1,10 @@
-let =[]
+function mostrarDatos(){
+	const Usuario = document.getElementById('usuario');
+	const Contraseña = document.getElementById('contraseña');
+}
+
+
+let aaa=[]
 function escribir(materias){
 	const divContenedorM = document.getElementById('contenedorM');
 	limpiar();
