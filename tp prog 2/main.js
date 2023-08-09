@@ -1,4 +1,4 @@
-let materias=[]
+let =[]
 function escribir(materias){
 	const divContenedorM = document.getElementById('contenedorM');
 	limpiar();

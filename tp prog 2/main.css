@@ -7,28 +7,23 @@
 
 
 .head{
-	display: flex;
-	justify-content: center;
-	background-color: rgba(0, 0, 0, 0.3);
-	border-bottom: 1px solid #d6d6e7;
 
 }
 
 body{
-	background-image: url(./assets/ushi.jpg);
-	background-repeat: no-repeat;
+	background-color: rgb(250, 250, 242);
 	background-size: cover;
 }
 .body{
 	display: flex;
-	justify-content: row;
+	justify-content: center;
 	min-height: calc(100vh - 120px);
 	padding: 10px 120px;
 
 }
 
 h2, h1{
-	color: #D5D8DC;
+	color: #ffffff;
 	font-family: 'Lora', serif;
 	
 }
@@ -36,6 +31,8 @@ h2, h1{
 .contenedorF{
 	display: flex;
 	justify-content: center;
+	height: 50vh;
+	margin-top: 22vh;
 	margin-right: 100px;
 	margin-left: 20px;
 
@@ -46,15 +43,15 @@ h2, h1{
 	background-color: rgba(0, 0, 0, 0.5);
 	border: 1px solid #d6d6e7;
 	border-radius: 5px;
-	height: 30px;
-	width: 80px ;
-	color: #D5D8DC;
+	height: 50px;
+	width: 100px ;
+	color: #ffffff;
 	margin-right: 10px;
 
 }
 
 label{
-	color: #D5D8DC;
+	color: #ffffff;
 }
 .botoncitos{
 	display: flex;
@@ -72,45 +69,22 @@ label{
 	height: 30px;
 	border: 1px solid #d6d6e7;
 	border-radius: 3px;
-	color: #D5D8DC;
+	color: #ffffff;
 }
 
-.contenedorM{
-	 display: flex;
-	 flex: 1;
-	 flex-direction: row;
-	 align-items: flex-start;
-	 justify-content: center;
-	flex-wrap: wrap;
-	align-content: flex-start;
-
-
-}
-
-.limpiadito{
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(0, 0, 0, 0.3);
-	flex: 2;
-	align-items: center;
-	margin-top: 20px ;
-	margin-bottom: 20px;
-	border: 1px solid #d6d6e7;
-	border-radius: 50px;
-
-}
 
 .letritas{
 	background-color: rgba(0, 0, 0, 0.3); 
 	position: relative;
 	cursor: text;
-	font-size: 14px;
+	font-size: 16px;
+	
 	line-height: 20px;
 	padding: 0 16px;
 	height: 30px;
-	border: 1px solid #d6d6e7;
+	border: 1px solid #ffffff;
 	border-radius: 3px;
-	color: #D5D8DC;
+	color: #ffffff;
 
 }
 
@@ -150,7 +124,7 @@ label{
 
 }
 
-.formulario{
+.login{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -163,11 +137,4 @@ label{
 	margin-bottom: 20px;
 	width: 500px;
 }
-
-.footer{
-	background-color: rgba(0, 0, 0, 0.3);
-	border-top: 1px solid #d6d6e7;
-	height: 55px;
-}
-
 
