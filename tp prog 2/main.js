@@ -46,7 +46,6 @@ function eliminarTodos(){
 
 function guardarMaterias(materia){
 	const apiUrl = 'http://192.168.0.196:3010/api/materias';
-
 	axios.post(apiUrl, materia)
 	.then((response) => {
 		console.log('Materia guardada:', response.data);
@@ -57,6 +56,17 @@ function guardarMaterias(materia){
 	});
 }
 
+function obtenerMaterias(){
+	const apiUrl = 'http://192.168.0.196:3010/api/materias';
+	axios.get(apiUrl)
+	.then((response) => {
+		console.log(response.data);
+
+	})
+	.catch((error) =>{
+		console.error('Error al obtener la materia', error);
+	});
+}
 
 function alerta(){
 	const nombre = document.getElementById('materia').value;
