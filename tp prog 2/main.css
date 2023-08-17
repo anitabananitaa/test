@@ -3,12 +3,8 @@
 	padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
 
-
-.head{
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Work+Sans:wght@800&display=swap');
 
 body{
 	background-image: url(./assets/paisaje.png);
@@ -24,21 +20,27 @@ body{
 
 }
 
-h2{
+.login h2{
 	color: #533768;
-	font-family: 'Lora', serif;
+	font-size: 30px;
+	margin-bottom: 25px;
+	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+
 	
 }
 
 .contenedor{
 	display: flex;
 	margin-top: 20px;
-
-
+	box-shadow: 20px 37px 37px rgba(0, 0, 0, 0.3);
+	border-bottom-right-radius: 9px;
+	border-top-right-radius: 9px;
 }
 
 .ingresar{
 	cursor: pointer;
+	outline: none;
 	background-color: #533768;
 	border: none;
 	border-radius: 40px;
@@ -46,34 +48,48 @@ h2{
 	width: 140px ;
 	color: #ffffff;
 	margin-right: 10px;
+	box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.3);
 
 }
 
 label{
-	color: #000000;
+	color: hsl(0, 0%, 0%, 0.8);
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+
+	
+}
+
+
+.letritas{
+
+	cursor: text;
+	font-size: 14px;
+	width: 40vh;
+	padding: 0 16px;
+	height: 40px;
+	color: hsl(0, 0%, 0%, 0.7);
+
+}
+
+.login label, .login input{
+	display: block;
+}
+
+
+.login input{
+	border: none;
+	border-bottom: 2px solid #533768a9;
+	margin-bottom: 5px;
+	outline: none;
+	font-family: 'Manrope', sans-serif;
 }
 .botoncitos{
 	display: flex;
 	flex-direction: row;
 	margin-top: 20px;
-}
-
-
-.letritas{
-	background-color: rgba(0, 0, 0, 0.3); 
-	position: relative;
-	cursor: text;
-	font-size: 16px;
 	
-	line-height: 20px;
-	padding: 0 16px;
-	height: 30px;
-	border: 1px solid #ffffff;
-	border-radius: 3px;
-	color: #ffffff;
-
 }
-
 
 .login{
 	display: flex;

@@ -5,18 +5,27 @@
 	<title>Create Account</title>
 	<script src="./main.js"></script></head>
 <body>
-	<div class="CreAcc">
-		<label> Last Name:<input type="text" placeholder="Last name" class="letritas"> </label>
-		<label> Name:<input type="text" placeholder="Name" class="letritas"></label>
-		<label> Direction:<input type="text" placeholder="Direction" class="letritas"></label>
-		<label> DNI:<input type="num"  placeholder="DNI" class="letritas"></label>
-		<label> Email:<input type="email" placeholder="Email" class="letritas"></label>
-		<label> Password:<input type="password" placeholder="Password" class="letritas"></label>
-		<label> Repeat Password:<input type="password" placeholder="Repeat Password" class="letritas"></label>
+	<div class="contenedor">
+		<div class="CreAcc">
+			<div class="form">
+				<h2>Create new account</h2>
+				<label> Last Name:<input type="text" class="letritas" id="input1"> </label>
+				<label> Name:<input type="text"  class="letritas" id="input2"></label>
+				<label> Direction:<input type="text" class="letritas" id="input3"></label>
+				<label> DNI:<input type="num"  class="letritas" id="input4"></label>
+				<label> Email:<input type="email"  class="letritas" id="input5"></label>
+				<label> Password:<input type="password"  class="letritas" id="input6"></label>
+				<label> Repeat Password:<input type="password" class="letritas"id="input7"></label>
+				<div class="crearboton">
+					<input type="button" value="Create Account" onclick="GuardarDatos()" class="ingresar">
+				</div>
+				
 
-		<input type="button" placeholder="Create" class="ingresar">
+			</div>
+			</div>
 
 	</div>
+
 
 </body>
 </html>

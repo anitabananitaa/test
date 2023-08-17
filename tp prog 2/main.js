@@ -2,7 +2,7 @@ function MostrarDatos(){
 	var dato1 = document.getElementById("input1").value;
 	var dato2 = document.getElementById("input2").value;
 
-	console.log("Useraname:", dato1);
+	console.log("Username:", dato1);
 	console.log("Password", dato2);
 }
 
