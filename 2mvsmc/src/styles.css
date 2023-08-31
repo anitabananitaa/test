@@ -1,0 +1,21 @@
+.body {
+  background-image: url(./assets/ushi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuerpito {
+  display: flex;
+  flex-direction: row;
+}
